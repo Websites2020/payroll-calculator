@@ -1,5 +1,5 @@
 //
-//  main.c
+//  p4.c
 //  cAssignment4
 //
 //  Created by Daniel on 10/21/18.
@@ -11,7 +11,7 @@
 int main(int argc, const char * argv[]) {
     
     char companyName[30], c;
-    int employees = 0, i, id[i];
+    int employees = 0, i = 1, id[i];
     float rate, hours, tax = .2, overTime[i], grossPay[i], overPay[i], fedTax[i], netPay[i], totalGross = 0, totalTax = 0, totalNet = 0;
     
     printf("\nWelcome to the Button Payroll Calculator\n");
@@ -98,10 +98,6 @@ int main(int argc, const char * argv[]) {
     } // end of for loop
     
     printf("\n %20s\n", "Payroll Report");
-    for (i = 0; i < 30; ++i)
-    {
-      printf("%c", companyName[i]);
-    }
     
     for (i = 1; i <= employees; i++)
     {
